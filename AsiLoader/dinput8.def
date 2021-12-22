@@ -1,0 +1,8 @@
+LIBRARY dinput8
+EXPORTS
+	DllMain				@1
+	DirectInput8Create	@2
+	DllCanUnloadNow 	PRIVATE
+	DllGetClassObject 	PRIVATE
+	DllRegisterServer 	PRIVATE
+	DllUnregisterServer	PRIVATE
