@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "AsiLoader", "AsiLoader\AsiLoader.vcxproj", "{0DC75A15-E7DF-4B05-A074-8F6AF583A79C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ScriptHook", "ScriptHook\ScriptHook.vcxproj", "{D12B0CBC-E7BA-49DF-95CC-0AF0C04A16CE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GTAVMod", "GTAVMod\GTAVMod.vcxproj", "{0D9F4A0A-3A04-426A-AD70-F50CF4D43ADA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Release|x64 = Release|x64
@@ -12,6 +16,10 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{0DC75A15-E7DF-4B05-A074-8F6AF583A79C}.Release|x64.ActiveCfg = Release|x64
 		{0DC75A15-E7DF-4B05-A074-8F6AF583A79C}.Release|x64.Build.0 = Release|x64
+		{D12B0CBC-E7BA-49DF-95CC-0AF0C04A16CE}.Release|x64.ActiveCfg = Release|x64
+		{D12B0CBC-E7BA-49DF-95CC-0AF0C04A16CE}.Release|x64.Build.0 = Release|x64
+		{0D9F4A0A-3A04-426A-AD70-F50CF4D43ADA}.Release|x64.ActiveCfg = Release|x64
+		{0D9F4A0A-3A04-426A-AD70-F50CF4D43ADA}.Release|x64.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

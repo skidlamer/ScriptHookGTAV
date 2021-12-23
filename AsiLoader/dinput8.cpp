@@ -1,8 +1,6 @@
 #include "pch.h"
 #include "dinput8.h"
 
-bool pluginsLoaded = false;
-
 extern "C" EXPORT HRESULT WINAPI DirectInput8Create(HINSTANCE hinst, DWORD dwVersion, REFIID riidltf, LPVOID * ppvOut, LPUNKNOWN punkOuter)
 {
 	ModuleLoader::Get().loadPlugins("", "asi");
